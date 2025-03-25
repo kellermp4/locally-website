@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { Domine } from 'next/font/google';
 import "./globals.css";
+
+const domine = Domine({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Locally",
